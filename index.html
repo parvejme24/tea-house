@@ -16,6 +16,9 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- font awsome url  -->
+    <script src="https://kit.fontawesome.com/ea57345992.js" crossorigin="anonymous"></script>
+
 
     <script>
         tailwind.config = {
@@ -40,8 +43,29 @@
 
 <body class="font-manrop">
     <!-- start header section  -->
-    <header>
+    <header class="container mx-auto">
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+                <div>
+                    <h1 class="text-7xl font-extrabold">It's good tea time at The Tea House</h1>
+                    <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                    </p>
+                    <button class="btn btn-primary capitalize">Explore More <img src="images/arrow.png" alt=""></button>
+                </div>
+                <div>
+                    <img src="images/banner.png" class="max-w-sm rounded-lg -z-50" />
 
+                    <!-- rating badge  -->
+                    <div class="flex z-50 gap-4 items-center justify-center p-4 rounded-lg shadow-lg w-60 -mt-16">
+                        <i class="fa-solid fa-star text-5xl text-amber-400"></i>
+                        <div>
+                            <h3 class="text-3xl font-bold">5.00</h3>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <!-- end header section -->
 </body>
